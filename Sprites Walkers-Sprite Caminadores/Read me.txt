@@ -1,0 +1,39 @@
+Notes from the creator of the project: "Sprite walkers"
+
+The py file being worked on since 9/5/2024 is file (main.py)
+the other py files are older versions or obsolete versions.
+
+The logic of how the program searches for the spritesheet is explained in the following mind map:"
+sprites/
+│
+├── sprite_1_a/
+│   ├── return/
+│   │   └── SPRITESHEET/
+│   │       └── (image spritesheet).png
+│   └── paused/
+│       └── SPRITESHEET/
+│           └── (image spritesheet).png
+│
+├── sprite_2_b/
+│   ├── return/
+│   │   └── SPRITESHEET/
+│   │       └── (image spritesheet).png
+│   └── paused/
+│       └── SPRITESHEET/
+│           └── (image spritesheet).png".
+To add a spritesheet it must be the following way: Create a folder (sprite_X_Y), the "X" are just numbers and the "Y" are just lowercase letters; In the folder (sprites), this folder must have 2 subfolders: (return) and (paused), in these subfolders there must be a folder called (SPRITESHEET) where the spritesheet image will be in a horizontal row.
+
+OBJECTIVES TO BE ACHIEVED TO FINISH THE PROJECT:
+1.Let the name written in the line of text next to the "add" appear above the created avatar at all times.
+2.Let "remove" work, the way it should work is as follows: select the avatar you want to delete and then press "remove" deleting the selected avatar.
+3.When it is an .EXE. The OBS when you record it in {Game Capture} only records the avatars, but not the black background or the interface.
+
+Project collaborators:
+KentAugust (kentaugust).
+Sukaleno (sukaleno0758).
+
+Author:
+Garz zrag (garzzragwashacked).
+
+You can collaborate to finish the project, you can do whatever you want with the code, remember that if you want to collaborate you can modify the text document by putting your contributions and adding explanations.
+ 

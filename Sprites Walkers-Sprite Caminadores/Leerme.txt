@@ -1,0 +1,41 @@
+Notas del creador del proyecto: "Stream avatars casero"
+
+El archivo py en el que se está trabajando desde 9/5/2024 es el archivo (main.py)
+los demás archivos py son versiones anteriores o versiones obsoletas.
+
+La lógica de como busca los spritesheet del programa es explicado de la siguiente mapa mental:"
+sprites/
+│
+├── sprite_1_a/
+│   ├── return/
+│   │   └── SPRITESHEET/
+│   │       └── (imagen spritesheet).png
+│   └── paused/
+│       └── SPRITESHEET/
+│           └── (imagen spritesheet).png
+│
+├── sprite_2_b/
+│   ├── return/
+│   │   └── SPRITESHEET/
+│   │       └── (imagen spritesheet).png
+│   └── paused/
+│       └── SPRITESHEET/
+│           └── (imagen spritesheet).png".
+Para agregar un spritesheet debe ser la siguiente forma: Crear una carpeta (sprite_X_Y), la "X" son solo números y la "Y" son solo letras minúsculas; en la carpeta (sprites), está carpeta tiene que tener 2 subcarpetas: (return) y (paused), en estas subcarpetas tienen que estar una carpeta llamada (SPRITESHEET) donde estará la imagen spritesheet en fila horizontal.
+
+OBJETIVOS A REALIZAR PARA FINALIZAR CON EL PROYECTO:
+1.Que el nombre escrito en la linea de texto junto al "add", aparezca encima del avatar creado en todo momento.
+2.Que funcione "remove", la manera en la que debería de funcionar es la siguiente: selecciona al avatar que quieres eliminar y luego presionas "remove" eliminando al avatar seleccionado.
+3.Cuando sea un .EXE. El OBS cuando lo grabe en {Captura de juego} solo grabe a los avatares, pero no el fondo negro ni el interfaz.
+
+Colaboradores del proyecto:
+KentAugust (kentaugust).
+sukaleno (sukaleno0758).
+
+Autor:
+Garz zrag (garzzragwashacked)
+
+Si quieres ayudar en el proyecto puedes hablarme directamente o en el canal "ayuda" del Discord "Python en Español" acceder a las publicaciones más reciente del proyecto.
+ 
+
+

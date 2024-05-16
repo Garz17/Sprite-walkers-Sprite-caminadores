@@ -1,0 +1,24 @@
+import pygame
+SCREEN_HEIGHT = 1680
+SCREEN_WIDTH = 1050
+CLOCK = pygame.time.Clock()
+SCREEN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+RUNNING = True
+DT = 0
+DISTANCE = 100
+pygame.init()
+#1680 x 1050
+
+player_position = pygame.Vector2(SCREEN_WIDTH/2, SCREEN_HEIGHT/2)
+
+while RUNNING:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            RUNNING = False
+
+    SCREEN.fill("black")
+    pygame.draw.line(SCREEN, "green", [630, 512], [ 1200, 1000], 10 )
+    pygame.draw.rect(SCREEN,  "green", (1280,1024, 100, 100), 0)
+
+    pygame.display.flip()
+    CLOCK.tick(60)
